@@ -15,7 +15,7 @@ public:
   std::string displayString() const;
   void dump(std::ostream& os) const;
 
-privet:
+private:
   std::string genre_;
   std::string rating_;
 };
