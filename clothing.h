@@ -19,4 +19,4 @@ private:
   std::string size_;
   std::string brand_;
 };
-#endig
+#endif
