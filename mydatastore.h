@@ -16,12 +16,12 @@ public:
 
 void addProduct(Product* p);
 void addUser(User* u);
-std::vector<Product*> search(std::vector<std::string>& terms, int type;
+std::vector<Product*> search(std::vector<std::string>& terms, int type);
 void dump(std::ostream& ofile);
 
 private:
-    std::vector<Product*> products_;
+  std::vector<Product*> products_;
   std::vector<User*> users_;
-  std::map<std::string, std::set<Product*> keywordMap_;
+  std::map<std::string, std::set<Product*> > keywordMap_;
 };
 #endif
