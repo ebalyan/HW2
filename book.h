@@ -15,7 +15,7 @@ std::string displayString() const;
 void dump(std::ostream& os) const;
 
 private:
-  std::string_isn_;
+  std::string isbn_;
   std::string author_;
 };
 #endif
